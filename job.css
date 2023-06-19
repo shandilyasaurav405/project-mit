@@ -1,0 +1,277 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Red+Rose&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: #0A4D68;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar-brand{
+    color: rgba(39, 228, 187, 0.877) !important;
+}
+.logo{
+    height: 45px;
+    width: 70px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+  color: #91e40c !important;
+}
+.fc{
+  text-decoration: none;
+  color: white;
+}
+.header-ul{
+    margin: 15px;
+}
+.btn:hover{
+    color: white;
+    background-color: aqua;
+
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.d-flex{
+    gap: 15px;
+}
+
+
+
+
+/* Rohit */
+.services-box
+{
+    border: 1px solid #dafcef;
+    padding: 44px 0;
+   
+    text-align: center;
+    
+}
+
+.ser-i {
+    font-size: 70px;
+    margin-bottom: 30px;
+    color:rgb(96, 86, 86);
+}
+.c-no
+{color:#de5555; 
+font-size: 20px;
+}
+
+.services-box:hover{
+    background-color:#de5555;
+    color: white;
+}
+
+
+
+
+/* Raju */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s, visibility 0.75s;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #17e4bb;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(2turn);
+    }
+  }
+
+  /* footer css */
+body{
+    line-height: 1.5;
+    font-family: 'poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b; 
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    /* background-color: red; */
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    border-radius: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/* footer email */
+
+.f-up p {
+    font-family:Arial, Helvetica, sans-serif
+}
+.email-div{
+    margin-top: 15px;
+}
+.email-btn{
+    margin-top: 5px;
+    background-color: white;
+    color: white;
+    border-radius: 25px;
+  border: 3px;
+  padding: 20px;
+  width: 250px;
+  height: 0px;
+  background-color: #333333;
+  border: none;
+ 
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 25px;
+  color: white;
+}
+
+
+.submit-btn{
+    font-size: 15px;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    background-color: #333333 ;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.submit-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+
+/* responsive */
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+
+}
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+      
+}
+}
+
