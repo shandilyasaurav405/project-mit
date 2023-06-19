@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom left, rgb(0, 140, 255),rgba(46, 46, 151, 0.603),rgb(247, 0, 255));
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+   top: 20%;
+   transform: translate(-40);
+   padding: 20px 20px;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 2px 2px 2px rgb(27, 14, 14)
+}
+.login-header h1{
+    font-size: 2.5rem;
+}
+.login-header p{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #4c4e4c;
+
+}
+.login-body{
+    margin: 20px 5px;
+
+}
+.login-body p{
+    margin: 10px ;
+}
+.login-body p label{
+    display: block;
+    font-weight: bold;
+}
+.login-body p input{
+    
+    width: 100%;
+    padding: 10px;
+    border: px solid #c02929cc;
+    border-radius: 24px;
+    margin-top: 4px;
+   
+}
+.textboxid
+{
+    height:20px;
+    font-size:14pt;
+    /* border: none; */
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: rgb(210, 210, 219);
+    border-radius: 3px;
+}
+#submit{
+
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(189, 187, 185);
+    transition: 2s;
+} 
+ #submit:hover{
+    background-color:  rgb(69, 223, 215);;
+    color:white
+    
+    
+}
+.p1{
+    width: 100%; 
+}
